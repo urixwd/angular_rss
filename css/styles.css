@@ -1,0 +1,11 @@
+ul#side-ul {
+    list-style:none;
+    padding-left:0;
+    list-style-type: none;
+}
+.menu_item{
+    line-height: 25px;​
+}
+.active_menu_item{
+    font-weight: bolder;
+}

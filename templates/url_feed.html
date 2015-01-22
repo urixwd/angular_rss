@@ -1,0 +1,10 @@
+<h2>{{ ::url}}</h2>
+<img ng-if="feed_data==null" src="assets/spinner-blue.gif" style="max-width: 150px;">
+<div ng-if="feed_data!=null">
+    <p>&nbsp;</p>
+    <div ng-repeat="feed in feed_data">
+        <feed-item data="feed"></feed-item>
+    </div>
+</div>
+
+
